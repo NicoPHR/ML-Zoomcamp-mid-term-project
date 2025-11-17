@@ -119,3 +119,14 @@ Open a new terminal in codespaces and run the test script:
 >
     python ML-Zoomcamp-mid-term-project/predict_test.py
 
+## Cloud deployment (render)
+
+**Attention: Render takes around 1-2min to spin back up once used. It will fail on the first try. Try after a couple of minutes** <p>
+**I'm using a free version. Sorry for my cheapness xD**
+
+The Web service was deployed on ```https://ml-zoomcamp-mid-term-project.onrender.com``` 
+
+You can test this using ```predict_test_render.py``` this will send a request to ```https://ml-zoomcamp-mid-term-project.onrender.com/predict``` with the example student and you will get a predicted exam score back.
+
+Feel free to test in with the py file and modify the features to check if you get a better score or worse!
+
